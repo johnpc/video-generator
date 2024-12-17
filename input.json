@@ -1,0 +1,20 @@
+{
+  "modelId": "amazon.nova-reel-v1:0",
+  "outputDataConfig": {
+    "s3OutputDataConfig": {
+      "s3Uri": "s3://amplify-videogenerator-xs-aivideogeneratorstorageb-riwmp5vogjgr/videos/"
+    }
+  },
+  "modelInput": {
+    "taskType": "TEXT_VIDEO",
+    "textToVideoParams": {
+      "text": "Crab on a beach"
+    },
+    "videoGenerationConfig": {
+      "durationSeconds": 6,
+      "fps": 24,
+      "dimension": "1280x720",
+      "seed": 12
+    }
+  }
+}

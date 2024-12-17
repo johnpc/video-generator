@@ -1,0 +1,12 @@
+.prettierignore
+.gitignore
+LICENSE
+.husky/
+.github/
+.amplify/
+.env*
+*.sh
+*.ino
+*.png
+*.svg
+*.ico
